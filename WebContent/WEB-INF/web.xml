@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>ServletHelloWorld</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<display-name>HelloServlet</display-name>
+		<servlet-name>HelloServlet</servlet-name>
+		<servlet-class>com.vaman.demo.HelloServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HelloServlet</servlet-name>
+		<url-pattern>/HelloServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<display-name>DemoServlet</display-name>
+		<servlet-name>DemoServlet</servlet-name>
+		<servlet-class>com.vaman.demo.DemoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DemoServlet</servlet-name>
+		<url-pattern>/DemoServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<display-name>LoginServlet</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.vaman.demo.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<display-name>SuccessServlet</display-name>
+		<servlet-name>SuccessServlet</servlet-name>
+		<servlet-class>com.vaman.demo.SuccessServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SuccessServlet</servlet-name>
+		<url-pattern>/SuccessServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<display-name>RegistrationSuccess</display-name>
+		<servlet-name>RegistrationSuccess</servlet-name>
+		<servlet-class>com.vaman.demo.RegistrationSuccess</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrationSuccess</servlet-name>
+		<url-pattern>/RegistrationSuccess</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+
+
+</web-app>
